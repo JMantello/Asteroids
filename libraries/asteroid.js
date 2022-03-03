@@ -1,3 +1,4 @@
+// From tutorial
 function Asteroid(pos, r) {
   if (pos) this.pos = pos.copy();
   else this.pos = createVector(random(width), random(height));

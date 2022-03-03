@@ -2,3 +2,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+#startScreen {
+  position: fixed;
+  color: white;
+  font-size: 44px;
+  border: 2px solid white;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-items: center;
+}
+
+#gameHUD {
+  position: fixed;
+  padding-right: 15px;
+  color: white;
+  font-size: 30px;
+  border: 2px solid white;
+  height: 100%;
+  width: 100%;
+  text-align: right;
+  justify-items: center;
+}
+
+.hidden {
+  display: none;
+}

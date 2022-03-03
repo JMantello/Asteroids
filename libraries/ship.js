@@ -1,10 +1,21 @@
+//From tutorial
 function Ship() {
   this.pos = createVector(width / 2, height / 2);
   this.r = 20;
-  this.heading = 0;
+  this.heading = -PI / 2;
   this.rotation = 0;
   this.vel = createVector(0, 0);
   this.isBoosting = false;
+
+  // Self added
+  this.reset = function () {
+    this.pos = createVector(width / 2, height / 2);
+    this.r = 20;
+    this.heading = -PI / 2;
+    this.rotation = 0;
+    this.vel = createVector(0, 0);
+    this.isBoosting = false;
+  };
 
   this.boosting = function (b) {
     this.isBoosting = b;

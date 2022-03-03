@@ -1,3 +1,4 @@
+// From tutorial
 function Laser(shipPos, angle) {
   this.pos = createVector(shipPos.x, shipPos.y);
   this.vel = p5.Vector.fromAngle(angle);
