@@ -143,7 +143,7 @@ function setPoints() {
 }
 
 function setLives() {
-  livesHUD.innerHTML = lives;
+  livesHUD.innerHTML = "Lives: " + lives;
 }
 
 function keyReleased() {
